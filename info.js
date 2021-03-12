@@ -58,3 +58,17 @@ $icon.onmouseover = () => {
     iterations: Infinity
   });
 }
+
+const $iconBack = document.querySelector('.icon-back');
+const $arrowBack = document.querySelector('.arrow-back');
+
+$iconBack.onmouseover = () => {
+  $arrowBack.animate([
+    {left: '0'},
+    {left: '10px'},
+    {left: '0'}
+  ],{
+    duration: 800,
+    iterations: Infinity
+  });
+}

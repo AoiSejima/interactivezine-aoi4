@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "Cormorant Light";
-    src: url("./assets/Cormorant-Light.woff2") format("woff2"); 
-}
-
 body {
     font-family: 'Cutive Mono', monospace;
     margin: 0 auto;
@@ -224,7 +219,68 @@ section img:hover {
     transform: rotate(-45deg);
 }
 
+@media only screen and (max-width: 812px) {
+    h1 {
+        font-size: 1rem;
+        margin-top: -0.2rem;
+    }
+    
+    p {
+        font-size: 0.65rem;
+        line-height: 0.7rem;
+        padding-top: 0.3rem;
+    }
+    
+    h2 {
+        margin: -0.7rem auto 0.6rem auto;
+    }
+    
+    section {
+        display: none;
+    }
 
-@media only screen and (max-width: 812px) {  
+    #wrapper {
+        margin-top: 1rem;
+    }
 
+    #wrapper img {
+        width: 53%;
+        margin-top: 4rem;
+        margin-left: 4.6rem;
+    }
+    
+    #popupBoxOnePosition {
+        width: 100%; 
+        height: 100%; 
+    }
+    
+    #popupBoxTwoPosition {
+        width: 100%; 
+        height: 100%; 
+    }
+    
+    #popupBoxThreePosition {
+        width: 100%; 
+        height: 100%; 
+    }
+    
+    .popupBoxWrapper {
+        margin: 1rem;
+    }
+
+    .popupBoxContent {
+        width: 90%;
+        padding: 1rem 1rem 0.001rem 1rem;
+        text-align: left;
+    }
+    
+    .icon {
+        top: 85%;
+        left: 58%;
+    }
+    
+    .icon-back {
+        top: 85%;
+        left: 22%;
+    }
 }

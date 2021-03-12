@@ -70,5 +70,33 @@ p {
 }
 
 @media only screen and (max-width: 812px) {  
-
+    video {
+        width: 144%;
+        height: 50%;
+        margin-top: 0;
+    }
+    
+    h1 {
+        font-size: 7rem;
+        margin-top: 7rem;
+        margin-left: 11rem;
+    }
+    
+    p {
+        color: black;
+        font-size: 1.2rem;
+        width: 100%;
+        margin-top: 24rem;
+        margin-left: 5rem;
+        text-align: left;
+        line-height: 1.1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .icon {
+        top: 35%;
+        left: 73%;
+        width: 80px;
+        height: 60px;
+    }
 }
